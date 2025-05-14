@@ -1,8 +1,11 @@
 * {
-  outline: 2px solid red;
+  outline: 2px solid green;
+  margin-bottom:50px !important;
+  color: white !important;
 }
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f1f1f;
   }
 
   body div {
@@ -13,6 +16,10 @@
     color: rgb(0, 0, 0);
     font-weight: 800;
     font-size: 14px;
+  }
+
+  .cancel{
+    background-color: red
   }
 
   .para {
@@ -31,7 +38,6 @@
   }
   
   .button {
-    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 20px;
     /* margin: 10px; */
@@ -64,11 +70,30 @@
   }
 
   .text1{
-    margin: 20px;
+    margin: 0px;
   }
 
   .text2{
     border: 2px solid;
     padding: 10px;
-    margin: 30px;
+    /* margin: 30px; */
+  }
+
+  div ~ div {
+    margin: 0px;
+  }
+
+  .test{
+    margin: 0px;
+  }
+
+
+
+  #confirm-button{
+    background-color: orange;
+    color: violet;
+  }
+
+  #mainBody > [href^="#"] {
+    background-color: purple
   }
